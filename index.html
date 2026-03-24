@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>BESPOKE Garden Play</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&family=Inter:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- HUB VIEW -->
+  <div id="view-hub" class="view active">
+    <header class="hub-header">
+      <div class="wordmark">
+        <span class="wordmark-primary">BESPOKE</span>
+        <span class="wordmark-sub">Garden Play</span>
+      </div>
+      <button class="narrative-btn" id="btn-narrative">
+        Explore Full Range
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </header>
+
+    <div class="category-grid" id="category-grid">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+
+  <!-- CATEGORY VIEW -->
+  <div id="view-category" class="view">
+    <div class="gallery-bg" id="gallery-bg"></div>
+
+    <div class="gallery-ui">
+      <div class="gallery-top">
+        <button class="back-btn" id="btn-back-category">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M12 4l-6 6 6 6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span id="gallery-category-name"></span>
+        </button>
+        <span class="gallery-counter" id="gallery-counter"></span>
+      </div>
+
+      <div class="gallery-title-wrap">
+        <p class="gallery-label" id="gallery-label"></p>
+      </div>
+
+      <div class="gallery-nav">
+        <button class="nav-arrow nav-prev" id="btn-prev" aria-label="Previous">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M15 4l-8 8 8 8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="gallery-dots" id="gallery-dots"></div>
+        <button class="nav-arrow nav-next" id="btn-next" aria-label="Next">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 4l8 8-8 8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- NARRATIVE VIEW -->
+  <div id="view-narrative" class="view">
+    <div class="gallery-bg" id="narrative-bg"></div>
+
+    <div class="gallery-ui">
+      <div class="gallery-top">
+        <button class="back-btn" id="btn-back-narrative">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M12 4l-6 6 6 6" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          All Collections
+        </button>
+        <span class="gallery-counter" id="narrative-counter"></span>
+      </div>
+
+      <div class="narrative-brand" id="narrative-brand">
+        <p class="narrative-headline" id="narrative-headline"></p>
+        <p class="narrative-sub" id="narrative-sub"></p>
+      </div>
+
+      <div class="gallery-title-wrap" id="narrative-title-wrap">
+        <p class="gallery-label" id="narrative-label"></p>
+      </div>
+
+      <div class="gallery-nav">
+        <button class="nav-arrow nav-prev" id="btn-narrative-prev" aria-label="Previous">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M15 4l-8 8 8 8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="narrative-progress" id="narrative-progress">
+          <div class="narrative-progress-fill" id="narrative-progress-fill"></div>
+        </div>
+        <button class="nav-arrow nav-next" id="btn-narrative-next" aria-label="Next">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M9 4l8 8-8 8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
