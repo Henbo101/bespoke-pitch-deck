@@ -307,9 +307,8 @@ attachSwipe(views.narrative,
 );
 
 // ── Init ──────────────────────────────────────────────────────
-async function init() {
-  const res = await fetch('data/catalogue.json');
-  state.catalogue = await res.json();
+function init() {
+  state.catalogue = window.CATALOGUE;
   buildHub();
   showView('hub');
 

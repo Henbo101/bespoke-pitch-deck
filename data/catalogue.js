@@ -1,0 +1,189 @@
+window.CATALOGUE = {
+  "categories": [
+    {
+      "id": "climbing-frames",
+      "name": "Climbing Frames",
+      "hero": "image3.jpeg",
+      "products": [
+        { "title": "Treetops Tower – Fully Loaded", "image": "image3.jpeg" },
+        { "title": "Treetops Mega Climbing Frame", "image": "image4.jpeg" },
+        { "title": "Treetops Climbing Frame", "image": "image5.png" },
+        { "title": "Treetops Climbing Frame", "image": "image6.jpeg" },
+        { "title": "Treetops Multi Tower", "image": "image7.jpeg" },
+        { "title": "Treetops Multi Tower", "image": "image8.jpeg" },
+        { "title": "Hex Tower Climbing Frame", "image": "image9.jpeg" },
+        { "title": "Hex Tower Climbing Frame", "image": "image10.jpg" },
+        { "title": "Hex Tower Combo", "image": "image11.jpeg" },
+        { "title": "Hex Tower Combination", "image": "image12.jpeg" },
+        { "title": "Cedar Combination", "image": "image13.jpeg" },
+        { "title": "Cedar Combination", "image": "image14.jpeg" },
+        { "title": "Clubhouse Climbing Frame", "image": "image15.jpeg" },
+        { "title": "Clubhouse Climbing Frame", "image": "image16.jpeg" },
+        { "title": "Clubhouse Climbing Frame", "image": "image17.jpeg" },
+        { "title": "Clubhouse Climbing Frame", "image": "image18.jpeg" }
+      ]
+    },
+    {
+      "id": "playhouses",
+      "name": "Playhouses",
+      "hero": "image75.jpeg",
+      "products": [
+        { "title": "Bespoke Play Cottage", "image": "image19.jpeg" },
+        { "title": "Willowbank | Cottage", "image": "image20.jpeg" },
+        { "title": "Willowbank | Cottage", "image": "image21.jpeg" },
+        { "title": "Swiss Chalet Playhouse", "image": "image65.jpeg" },
+        { "title": "Exeter Cottage", "image": "image66.jpeg" },
+        { "title": "Bramley Cottage", "image": "image67.jpeg" },
+        { "title": "Cottage Playhouse Interior", "image": "image68.jpeg" },
+        { "title": "Damson Cottage", "image": "image69.jpeg" },
+        { "title": "Otter Cottage", "image": "image70.jpeg" },
+        { "title": "Otter Cottage", "image": "image71.jpeg" },
+        { "title": "Bespoke Playhouse", "image": "image72.jpeg" },
+        { "title": "Badger Lodge", "image": "image73.jpeg" },
+        { "title": "Large Playhouse Interior", "image": "image74.jpeg" },
+        { "title": "Harvestwood | House", "image": "image75.jpeg" },
+        { "title": "Harvestwood | House", "image": "image76.jpeg" },
+        { "title": "Harvestwood | House Inside", "image": "image77.jpeg" }
+      ]
+    },
+    {
+      "id": "forest",
+      "name": "Forest Collection",
+      "hero": "image22.jpeg",
+      "products": [
+        { "title": "Forest Mega Playhouse", "image": "image22.jpeg" },
+        { "title": "Forest Playhouse", "image": "image23.jpeg" },
+        { "title": "Forest Adventure Playhouse", "image": "image24.jpeg" },
+        { "title": "Forest Combo", "image": "image25.jpeg" },
+        { "title": "Forest Combo", "image": "image26.jpeg" },
+        { "title": "Forest Mega Combo", "image": "image27.jpeg" },
+        { "title": "Forest Mega Combo", "image": "image28.jpeg" },
+        { "title": "Forest Mega Combo Turbo", "image": "image29.jpeg" }
+      ]
+    },
+    {
+      "id": "damson",
+      "name": "Damson Collection",
+      "hero": "image32.jpeg",
+      "products": [
+        { "title": "Damson Playhouse", "image": "image30.jpeg" },
+        { "title": "Damson Cottage", "image": "image31.jpeg" },
+        { "title": "Damson Cottage – Extended Deck", "image": "image32.jpeg" },
+        { "title": "Damson Cottage – Lower Deck", "image": "image33.jpeg" },
+        { "title": "Damson Mega Playhouse", "image": "image34.jpeg" },
+        { "title": "Damson Mega Turbo", "image": "image35.jpeg" },
+        { "title": "Damson Mega Combo", "image": "image36.jpeg" },
+        { "title": "Damson Cottage Combo", "image": "image37.jpeg" },
+        { "title": "Damson Mega Combo Turbo", "image": "image38.jpeg" },
+        { "title": "Damson Mega Combo Turbo", "image": "image39.jpeg" },
+        { "title": "Damson Mega Combo Turbo", "image": "image40.jpeg" }
+      ]
+    },
+    {
+      "id": "otter",
+      "name": "Otter Collection",
+      "hero": "image41.jpeg",
+      "products": [
+        { "title": "Otter Cottage", "image": "image41.jpeg" },
+        { "title": "Otter Cottage", "image": "image42.jpeg" },
+        { "title": "Otter Mega Combo", "image": "image43.jpeg" },
+        { "title": "Otter Mega Combo", "image": "image44.jpeg" },
+        { "title": "Otter Cottage", "image": "image45.jpeg" },
+        { "title": "Otter Cottage", "image": "image46.jpeg" },
+        { "title": "Otter Mega", "image": "image47.jpeg" },
+        { "title": "Otter Mega Combo", "image": "image48.jpeg" },
+        { "title": "Otter Mega Combo Turbo", "image": "image49.jpeg" },
+        { "title": "Otter Mega Combo Turbo", "image": "image50.jpeg" }
+      ]
+    },
+    {
+      "id": "castles",
+      "name": "Castles",
+      "hero": "image58.jpeg",
+      "products": [
+        { "title": "Castle Climbing Frame", "image": "image51.jpeg" },
+        { "title": "Castle Climbing Frame", "image": "image52.jpeg" },
+        { "title": "Castle Climbing Frame", "image": "image53.jpg" },
+        { "title": "Castle Cottage", "image": "image54.jpeg" },
+        { "title": "Castle", "image": "image55.jpeg" },
+        { "title": "Castle", "image": "image56.jpeg" },
+        { "title": "Castle", "image": "image57.jpeg" },
+        { "title": "Fantasy Castle", "image": "image58.jpeg" },
+        { "title": "Fantasy Castle", "image": "image59.jpeg" },
+        { "title": "Fantasy Castle", "image": "image60.jpeg" },
+        { "title": "Fantasy Castle", "image": "image61.jpeg" }
+      ]
+    },
+    {
+      "id": "bespoke",
+      "name": "Custom & Bespoke",
+      "hero": "image81.jpeg",
+      "products": [
+        { "title": "Custom Playcentre", "image": "image62.jpeg" },
+        { "title": "Custom Playcentre", "image": "image63.jpg" },
+        { "title": "Custom Playcentre", "image": "image64.jpeg" },
+        { "title": "Large Forest Playcentre", "image": "image78.jpeg" },
+        { "title": "Custom Project – Majorca", "image": "image79.jpeg" },
+        { "title": "Custom Otter Cottage Mega", "image": "image80.jpeg" },
+        { "title": "Large Fantasy Castle Playcentre", "image": "image81.jpeg" },
+        { "title": "Harvestwood | House Playcentre", "image": "image82.jpeg" },
+        { "title": "Harvestwood | House Playcentre", "image": "image83.jpeg" },
+        { "title": "Bespoke Playcentre", "image": "image84.jpeg" },
+        { "title": "Bespoke Playcentre", "image": "image85.jpeg" },
+        { "title": "Bespoke Playcentre", "image": "image86.jpeg" },
+        { "title": "Bespoke Playcentre", "image": "image87.jpeg" },
+        { "title": "Bespoke Playcentre", "image": "image88.jpeg" },
+        { "title": "Bespoke Playcentre", "image": "image89.jpeg" },
+        { "title": "Bespoke Playcentre", "image": "image90.jpeg" },
+        { "title": "Bespoke Playcentre", "image": "image91.jpeg" },
+        { "title": "Bespoke Playcentre", "image": "image92.jpeg" },
+        { "title": "Bespoke Playcentre", "image": "image93.jpeg" },
+        { "title": "Bespoke Playcentre", "image": "image94.jpeg" },
+        { "title": "Bespoke Playcentre", "image": "image95.jpeg" },
+        { "title": "Bespoke Playcentre", "image": "image96.jpeg" },
+        { "title": "Bespoke Playcentre", "image": "image97.jpeg" },
+        { "title": "Custom Project", "image": "image98.jpeg" },
+        { "title": "Bespoke Project", "image": "image99.jpeg" },
+        { "title": "Bespoke Project", "image": "image100.jpeg" },
+        { "title": "Bespoke Towers", "image": "image101.jpeg" },
+        { "title": "Bespoke Project", "image": "image102.png" },
+        { "title": "Badger Lodge Playcentre", "image": "image103.jpeg" },
+        { "title": "Bespoke Forest Playcentre", "image": "image104.jpeg" },
+        { "title": "Bespoke Badger Lodge", "image": "image105.jpeg" },
+        { "title": "Bespoke Playcentre", "image": "image106.jpeg" },
+        { "title": "Bespoke Playcentre", "image": "image107.jpeg" }
+      ]
+    },
+    {
+      "id": "commercial",
+      "name": "Commercial",
+      "hero": "image111.jpeg",
+      "products": [
+        { "title": "Toddler | Playship", "image": "image108.jpeg" },
+        { "title": "Preschool Toddler Towers", "image": "image109.jpeg" },
+        { "title": "Bespoke Activity Trail", "image": "image110.jpeg" },
+        { "title": "Bespoke Hex Castle", "image": "image111.jpeg" },
+        { "title": "Bespoke Hex Castle", "image": "image112.jpeg" },
+        { "title": "Commercial Toddler Towers", "image": "image113.jpeg" },
+        { "title": "Preschool Playhouse", "image": "image114.jpeg" },
+        { "title": "Commercial Swings", "image": "image115.jpeg" },
+        { "title": "Playground Towers", "image": "image116.jpeg" },
+        { "title": "Commercial Play Ship", "image": "image117.jpeg" }
+      ]
+    }
+  ],
+  "narrative": [
+    { "type": "brand", "headline": "We build architectural adventures.", "sub": "Handcrafted in the UK. Built to outlast childhood.", "image": "image84.jpeg" },
+    { "type": "slide", "title": "Climbing Frames", "image": "image3.jpeg" },
+    { "type": "slide", "title": "Harvestwood | House", "image": "image75.jpeg" },
+    { "type": "slide", "title": "Forest Mega Playhouse", "image": "image22.jpeg" },
+    { "type": "slide", "title": "Damson Cottage – Extended Deck", "image": "image32.jpeg" },
+    { "type": "slide", "title": "Otter Mega Combo", "image": "image43.jpeg" },
+    { "type": "slide", "title": "Fantasy Castle", "image": "image58.jpeg" },
+    { "type": "atmosphere", "image": "image85.jpeg" },
+    { "type": "atmosphere", "image": "image86.jpeg" },
+    { "type": "slide", "title": "Large Fantasy Castle Playcentre", "image": "image81.jpeg" },
+    { "type": "slide", "title": "Custom Project – Majorca", "image": "image79.jpeg" },
+    { "type": "slide", "title": "Bespoke Hex Castle", "image": "image111.jpeg" }
+  ]
+};
