@@ -185,7 +185,7 @@ function updateDots(container, index) {
 }
 
 // ── Narrative ─────────────────────────────────────────────────
-function openNarrative() {
+window.openNarrative = function openNarrative() {
   state.currentIndex = 0;
   const { narrative } = state.catalogue;
   const imageFiles = narrative.map(s => s.image);
