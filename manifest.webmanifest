@@ -1,0 +1,16 @@
+{
+  "name": "BESPOKE Garden Play",
+  "short_name": "BESPOKE",
+  "display": "standalone",
+  "background_color": "#232323",
+  "theme_color": "#232323",
+  "start_url": "/bespoke-pitch-deck/",
+  "scope": "/bespoke-pitch-deck/",
+  "icons": [
+    {
+      "src": "assets/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

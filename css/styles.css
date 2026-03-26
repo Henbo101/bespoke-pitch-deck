@@ -4,6 +4,30 @@
    Type: Playfair Display (serif) + Inter (sans-serif, light)
    ============================================================ */
 
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/playfair-display-regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/playfair-display-italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../assets/fonts/inter-light.woff2') format('woff2');
+}
+
 :root {
   --alabaster:     #F7F6F2;
   --charcoal:      #232323;
